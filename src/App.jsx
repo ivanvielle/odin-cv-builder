@@ -1,11 +1,12 @@
-import CVBuilder from "./CVBuilder"
+import "./App.css";
+import CVBuilder from "./CVBuilder/CVBuilder";
 
 const App = () => {
-  return (
-    <>
-      <CVBuilder />
-    </>
-  )
-}
+    return (
+        <>
+            <CVBuilder />
+        </>
+    );
+};
 
-export default App
+export default App;
